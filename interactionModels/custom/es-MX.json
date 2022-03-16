@@ -1,0 +1,467 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "tutor umt",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "InduccionIntent",
+          "slots": [],
+          "samples": [
+            "Inducción",
+            "Información sobre inducción",
+            "Dime sobre la fase inducción",
+            "Háblame de la fase de inducción",
+            "Fase de inducción",
+            "Cuál es la fase de inducción"
+          ]
+        },
+        {
+          "name": "EgresoIntent",
+          "slots": [],
+          "samples": [
+            "Egreso",
+            "Información sobre egreso",
+            "Dime sobre la fase egreso",
+            "Háblame de la fase de egreso",
+            "Fase de egreso",
+            "Cuál es la fase de egreso"
+          ]
+        },
+        {
+          "name": "TemaUnoUadyIntent",
+          "slots": [],
+          "samples": [
+            "De la universidad",
+            "De la uady",
+            "Tema de la uady",
+            "Háblame de la uady",
+            "Dime sobre la uady",
+            "Información sobre la uady",
+            "De la universidad autónoma de yucatán",
+            "Tema de la universidad autónoma de yucatán",
+            "Háblame de la universidad autónoma de yucatán",
+            "Dime sobre la universidad autónoma de yucatán",
+            "Información de la universidad autónoma de yucatán"
+          ]
+        },
+        {
+          "name": "TemaDosPEIntent",
+          "slots": [],
+          "samples": [
+            "El programa educativo",
+            "Tema del programa educativo",
+            "Háblame del programa educativo",
+            "Dime sobre el programa educativo",
+            "Información sobre el programa educativo",
+            "Cuál es el programa educativo"
+          ]
+        },
+        {
+          "name": "TemaTresPITIntent",
+          "slots": [],
+          "samples": [
+            "El PIT",
+            "Tema del PIT",
+            "Háblame del PIT",
+            "Dime sobre el PIT",
+            "Información sobre el PIT",
+            "El programa institucional de tutorías",
+            "Tema del programa institucional de tutorías",
+            "Háblame del programa institucional de tutorías",
+            "Dime sobre el programa institucional de tutorías",
+            "Información sobre el programa institucional de tutorías",
+            "Qué es el programa institucional de tutorías"
+          ]
+        },
+        {
+          "name": "TemaUnoSSIntent",
+          "slots": [],
+          "samples": [
+            "El servicio social",
+            "Tema del servicio social",
+            "Háblame del servicio social",
+            "Dime sobre el servicio social",
+            "Información sobre el servicio social",
+            "Qué es el servicio social"
+          ]
+        },
+        {
+          "name": "TemaDosPPIntent",
+          "slots": [],
+          "samples": [
+            "Las prácticas profesionales",
+            "Tema de las prácticas profesionales",
+            "Háblame de las prácticas profesionales",
+            "Dime sobre las prácticas profesionales",
+            "Información sobre las prácticas profesionales",
+            "Qué son las prácticas profesionales"
+          ]
+        },
+        {
+          "name": "TemaTresCPIntent",
+          "slots": [],
+          "samples": [
+            "Los campos profesionales",
+            "Tema de los campos profesionales",
+            "Háblame de los campos profesionales",
+            "Dime sobre los campos profesionales",
+            "Información sobre los campos profesionales",
+            "Qué son los campos profesionales"
+          ]
+        },
+        {
+          "name": "TemaCuatroTitulacionIntent",
+          "slots": [],
+          "samples": [
+            "Titulación",
+            "Tema de la titulación",
+            "Háblame de la titulación",
+            "Dime sobre la titulación",
+            "Información sobre la titulación",
+            "Qué es la titulación",
+            "Cómo puedo titularme"
+          ]
+        },
+        {
+          "name": "TemaCincoPosgIntent",
+          "slots": [],
+          "samples": [
+            "El posgrado",
+            "Tema del posgrado",
+            "Háblame del posgrado",
+            "Dime sobre el posgrado",
+            "Información sobre el posgrado",
+            "Qué es posgrado"
+          ]
+        },
+        {
+          "name": "ServiciosIntent",
+          "slots": [],
+          "samples": [
+            "Los servicios que ofrecen",
+            "Tema de las servicios que ofrecen",
+            "Háblame de los servicios que ofrecen",
+            "Dime sobre los servicios que ofrecen",
+            "Información sobre los servicios que ofrecen",
+            "Cuáles son los servicios que ofrecen"
+          ]
+        },
+        {
+          "name": "BibliotecaIntent",
+          "slots": [],
+          "samples": [
+            "Servicio de biblioteca",
+            "Información sobre el servicio de biblioteca",
+            "Dime sobre el servicio de biblioteca",
+            "Háblame del servicio de biblioteca",
+            "Acerca del servicio de biblioteca",
+            "Biblioteca",
+            "Información sobre la biblioteca",
+            "Dime sobre biblioteca",
+            "Háblame de la biblioteca",
+            "Acerca de la biblioteca"
+          ]
+        },
+        {
+          "name": "CAEIntent",
+          "slots": [],
+          "samples": [
+            "Servicio del CAE",
+            "Información sobre el servicio del CAE",
+            "Dime sobre el servicio del CAE",
+            "Háblame del servicio del CAE",
+            "Acerca del servicio del CAE",
+            "CAE",
+            "Información sobre el CAE",
+            "Dime sobre el CAE",
+            "Háblame del CAE",
+            "Acerca del CAE",
+            "Servicio del Centro de Atención al Estudiante",
+            "Información sobre el servicio del Centro de Atención al Estudiante",
+            "Dime sobre el servicio del Centro de Atención al Estudiante",
+            "Háblame del servicio del Centro de Atención al Estudiante",
+            "Acerca del servicio del Centro de Atención al Estudiante",
+            "Centro de Atención al Estudiante",
+            "Información sobre el Centro de Atención al Estudiante",
+            "Dime sobre el Centro de Atención al Estudiante",
+            "Háblame del Centro de Atención al Estudiante",
+            "Acerca del Centro de Atención al Estudiante"
+          ]
+        },
+        {
+          "name": "CCIntent",
+          "slots": [],
+          "samples": [
+            "Servicio del Centro de Cómputo",
+            "Información sobre el servicio del Centro de Cómputo",
+            "Dime sobre el servicio del Centro de Cómputo",
+            "Háblame del servicio del Centro de Cómputo",
+            "Acerca del servicio del Centro de Cómputo",
+            "Centro de Cómputo",
+            "Información sobre el Centro de Cómputo",
+            "Dime sobre el Centro de Cómputo",
+            "Háblame del Centro de Cómputo",
+            "Acerca del Centro de Cómputo"
+          ]
+        },
+        {
+          "name": "UUISIntent",
+          "slots": [],
+          "samples": [
+            "Servicio de la Unidad Universitaria de Inserción Social",
+            "Información sobre el servicio de la Unidad Universitaria de Inserción Social",
+            "Dime sobre el servicio de la Unidad Universitaria de Inserción Social",
+            "Háblame del servicio de la Unidad Universitaria de Inserción Social",
+            "Acerca del servicio de la Unidad Universitaria de Inserción Social",
+            "Unidad Universitaria de Inserción Social",
+            "Información sobre la Unidad Universitaria de Inserción Social",
+            "Dime sobre la Unidad Universitaria de Inserción Social",
+            "Háblame de la Unidad Universitaria de Inserción Social",
+            "Acerca de la Unidad Universitaria de Inserción Social"
+          ]
+        },
+        {
+          "name": "MEFIIntent",
+          "slots": [],
+          "samples": [
+            "El MEFI",
+            "Tema del MEFI",
+            "Háblame del MEFI",
+            "Dime sobre el MEFI",
+            "Información sobre el MEFI",
+            "El Modelo Educativo para la Formación Integral",
+            "Tema del Modelo Educativo para la Formación Integral",
+            "Háblame del Modelo Educativo para la Formación Integral",
+            "Dime sobre el Modelo Educativo para la Formación Integral",
+            "Información sobre el Modelo Educativo para la Formación Integral"
+          ]
+        },
+        {
+          "name": "PlanEstudiosIntent",
+          "slots": [],
+          "samples": [
+            "El plan de estudios",
+            "Tema del plan de estudios",
+            "Háblame del plan de estudios",
+            "Dime sobre el plan de estudios",
+            "Información sobre el plan de estudios"
+          ]
+        },
+        {
+          "name": "PerfilEgresoIntent",
+          "slots": [],
+          "samples": [
+            "El perfil de egreso de la licenciatura",
+            "Tema del perfil de egreso de la licenciatura",
+            "Háblame del perfil de egreso de la licenciatura",
+            "Dime sobre el perfil de egreso de la licenciatura",
+            "Información sobre el perfil de egreso de la licenciatura"
+          ]
+        },
+        {
+          "name": "ConocimientosIntent",
+          "slots": [],
+          "samples": [
+            "Los conocimientos",
+            "Háblame de los conocimientos",
+            "Dime sobre los conocimientos",
+            "Información sobre los conocimientos"
+          ]
+        },
+        {
+          "name": "HabilidadesIntent",
+          "slots": [],
+          "samples": [
+            "Las habilidades",
+            "Háblame de las habilidades",
+            "Dime sobre las habilidades",
+            "Información sobre las habilidades"
+          ]
+        },
+        {
+          "name": "ActitudesIntent",
+          "slots": [],
+          "samples": [
+            "Las actitudes",
+            "Háblame de las actitudes",
+            "Dime sobre las actitudes",
+            "Información sobre las actitudes"
+          ]
+        },
+        {
+          "name": "FasesAtencionIntent",
+          "slots": [],
+          "samples": [
+            "Las fases de atención",
+            "Tema de las fases de atención",
+            "Háblame de las fases de atención",
+            "Dime sobre las fases de atención",
+            "Información sobre las fases de atención"
+          ]
+        },
+        {
+          "name": "ActoresIntent",
+          "slots": [],
+          "samples": [
+            "Los actores involucrados",
+            "Tema de los actores involucrados",
+            "Háblame de los actores involucrados",
+            "Dime sobre los actores involucrados",
+            "Información sobre los actores involucrados"
+          ]
+        },
+        {
+          "name": "TutorIntent",
+          "slots": [],
+          "samples": [
+            "El tutor",
+            "Tema del tutor",
+            "Háblame del tutor",
+            "Dime sobre el tutor",
+            "Información sobre el tutor"
+          ]
+        },
+        {
+          "name": "TutoradoIntent",
+          "slots": [],
+          "samples": [
+            "El tutorado",
+            "Tema del tutorado",
+            "Háblame del tutorado",
+            "Dime sobre el tutorado",
+            "Información sobre el tutorado"
+          ]
+        },
+        {
+          "name": "InicioSSIntent",
+          "slots": [],
+          "samples": [
+            "Cuándo puedo iniciar el servicio social",
+            "Cuándo puedo comenzar el servicio social",
+            "En qué momento puedo iniciar el servicio social",
+            "En qué momento puedo comenzar el servicio social",
+            "Cuándo puedo empezar el servicio social"
+          ]
+        },
+        {
+          "name": "ResponsableSSIntent",
+          "slots": [],
+          "samples": [
+            "Qué maestro es el encargado del servicio social",
+            "Encargado del servicio social",
+            "Quién es el encargado del servicio social en la umt",
+            "Qué maestro es el responsable del servicio social",
+            "Responsable del servicio social",
+            "Quién es el responsable del servicio social en la umt"
+          ]
+        },
+        {
+          "name": "LugarSSIntent",
+          "slots": [],
+          "samples": [
+            "Qué proyectos puedo trabajar en el servicio social",
+            "Qué proyectos existen para servicio social",
+            "Dónde puedo hacer el servicio social",
+            "Dónde puedo encontrar la lista de proyectos para servicio social",
+            "Dónde puedo realizar el servicio social"
+          ]
+        },
+        {
+          "name": "RequisitosSSIntent",
+          "slots": [],
+          "samples": [
+            "Qué necesito para acreditar el servicio social",
+            "Cuáles son los requisitos para acreditar el servicio social",
+            "Requisitos para acreditar el servicio social"
+          ]
+        },
+        {
+          "name": "TiempoSSIntent",
+          "slots": [],
+          "samples": [
+            "Duración del servicio social",
+            "Cuánto tiempo debe durar el servicio social"
+          ]
+        },
+        {
+          "name": "ObligacionSSIntent",
+          "slots": [],
+          "samples": [
+            "Cuáles son mis derechos y obligaciones como prestador del servicio social",
+            "Mis derechos y obligaciones como prestador del servicio social",
+            "Derechos y obligaciones de un estudiante que realiza el servicio social",
+            "Cuáles son los derechos y obligaciones de un estudiante que realiza el servicio social"
+          ]
+        },
+        {
+          "name": "InicioPPIntent",
+          "slots": [],
+          "samples": [
+            "Cuándo puedo iniciar las prácticas profesionales",
+            "Cuándo puedo comenzar las prácticas profesionales",
+            "En qué momento puedo iniciar las prácticas profesionales",
+            "En qué momento puedo comenzar las prácticas profesionales",
+            "Cuándo puedo empezar las prácticas profesionales"
+          ]
+        },
+        {
+          "name": "ResponsablePPIntent",
+          "slots": [],
+          "samples": [
+            "Qué maestro es el encargado de las prácticas profesionales",
+            "Encargado de las prácticas profesionales",
+            "Quién es el encargado de las prácticas profesionales en la umt",
+            "Qué maestro es el responsable de las prácticas profesionales",
+            "Responsable de las prácticas profesionales",
+            "Quién es el responsable de las prácticas profesionales en la umt"
+          ]
+        },
+        {
+          "name": "LugarPPIntent",
+          "slots": [],
+          "samples": [
+            "Dónde puedo hacer las prácticas profesionales",
+            "Dónde puedo realizar las prácticas profesionales",
+            "Dónde puedo realizar mis prácticas profesionales",
+            "Dónde puedo hacer mis prácticas profesionales"
+          ]
+        },
+        {
+          "name": "RequisitosPPIntent",
+          "slots": [],
+          "samples": [
+            "Qué necesito para acreditar las prácticas profesionales",
+            "Cuáles son los requisitos para acreditar las prácticas profesionales",
+            "Requisitos para acreditar las prácticas profesionales"
+          ]
+        },
+        {
+          "name": "TiempoPPIntent",
+          "slots": [],
+          "samples": [
+            "Duración de las las prácticas profesionales",
+            "Cuánto tiempo debe durar las prácticas profesionales"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "3"
+}

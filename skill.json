@@ -1,0 +1,59 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "es-MX": {
+          "summary": "Habilidad para coadyuvar en temas y contenidos de la tutoría de la UADY en las fases de atención: inducción y egreso",
+          "examplePhrases": [
+            "Alexa abre tutor umt",
+            "tutor umt",
+            "tutorías umt"
+          ],
+          "keywords": [],
+          "name": "Tutor UMT",
+          "description": "Tuto UMT tiene como propósito coadyuvar en actividades tutoriales utilizando el voicebot de Amazon Alexa para apoyar a los estudiantes a resolver sus dudas a lo largo de su carrera universitaria, que cotidianamente un tutor humano haría.",
+          "smallIconUri": "file://assets/images/es-MX_smallIconUri.png",
+          "largeIconUri": "file://assets/images/es-MX_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "SCHOOLS",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:736882498931:function:fe06ed7f-fee1-4b4f-9177-95b671fed6f9:Release_0"
+        },
+        "interfaces": [],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:736882498931:function:fe06ed7f-fee1-4b4f-9177-95b671fed6f9:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:736882498931:function:fe06ed7f-fee1-4b4f-9177-95b671fed6f9:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:736882498931:function:fe06ed7f-fee1-4b4f-9177-95b671fed6f9:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "locales": {
+        "es-MX": {}
+      }
+    }
+  }
+}
